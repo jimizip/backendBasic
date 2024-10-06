@@ -13,7 +13,7 @@ int main() {
     int s = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
     if (s < 0) return 1;
 
-    string buf = "Hello World2";
+    string buf = "Hello World";
     struct sockaddr_in sin;
     memset(&sin, 0, sizeof(sin));
     sin.sin_family = AF_INET;
