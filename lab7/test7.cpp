@@ -8,8 +8,6 @@
 
 using namespace std;
 
-const int NO_JOB = -1;
-
 // 쓰레드의 종료 조건을 조율하기 위한 flag.
 // boolean 이라고 하더라도 atomic 하지 않기 때문에 atomic<bool> 을 이용한다.
 atomic<bool> quit(false);
